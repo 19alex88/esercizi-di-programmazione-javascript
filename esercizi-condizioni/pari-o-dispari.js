@@ -15,3 +15,15 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var number = 24;
+var oddEven = number%2;
+console.log("Restituisco 1 se il numero è dispari e 0 se è pari");
+
+
+if (oddEven == 0){
+  console.log("0");
+}
+else{
+  console.log("1");
+}
