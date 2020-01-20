@@ -11,3 +11,17 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var currentYear = 2019;
+var birthYear = 1988;
+
+var personYear = currentYear-birthYear;
+
+console.log("La persona di cui hai inserito la data di nascita ha "+personYear+" anni.");
+
+var to100 = 100 - personYear;
+
+console.log("Gli mancano "+to100+" anni per arrivare a 100 =)");
+
+
+
